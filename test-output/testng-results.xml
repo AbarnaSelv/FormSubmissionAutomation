@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-19T19:35:06 IST" name="CrossBrowserSuite" finished-at="2025-08-19T19:35:19 IST" duration-ms="13362">
+    <groups>
+    </groups>
+    <test started-at="2025-08-19T19:35:06 IST" name="ChromeTest" finished-at="2025-08-19T19:35:12 IST" duration-ms="6160">
+      <class name="com.ab.form.tests.FormPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ab.form.tests.FormPageTest@6ed3ccb2]" started-at="2025-08-19T19:35:06 IST" name="setUp" finished-at="2025-08-19T19:35:09 IST" duration-ms="2856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="FormPageTitleCheck()[pri:1, instance:com.ab.form.tests.FormPageTest@6ed3ccb2]" started-at="2025-08-19T19:35:09 IST" name="FormPageTitleCheck" finished-at="2025-08-19T19:35:09 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormPageTitleCheck -->
+        <test-method signature="Actions()[pri:2, instance:com.ab.form.tests.FormPageTest@6ed3ccb2]" started-at="2025-08-19T19:35:09 IST" name="Actions" finished-at="2025-08-19T19:35:12 IST" duration-ms="2954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Actions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ab.form.tests.FormPageTest@6ed3ccb2]" started-at="2025-08-19T19:35:12 IST" name="tearDown" finished-at="2025-08-19T19:35:12 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ab.form.tests.FormPageTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-08-19T19:35:06 IST" name="FireFoxTest" finished-at="2025-08-19T19:35:19 IST" duration-ms="13362">
+      <class name="com.ab.form.tests.FormPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ab.form.tests.FormPageTest@4e50c791]" started-at="2025-08-19T19:35:06 IST" name="setUp" finished-at="2025-08-19T19:35:15 IST" duration-ms="9244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="FormPageTitleCheck()[pri:1, instance:com.ab.form.tests.FormPageTest@4e50c791]" started-at="2025-08-19T19:35:15 IST" name="FormPageTitleCheck" finished-at="2025-08-19T19:35:15 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormPageTitleCheck -->
+        <test-method signature="Actions()[pri:2, instance:com.ab.form.tests.FormPageTest@4e50c791]" started-at="2025-08-19T19:35:15 IST" name="Actions" finished-at="2025-08-19T19:35:18 IST" duration-ms="2786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Actions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ab.form.tests.FormPageTest@4e50c791]" started-at="2025-08-19T19:35:18 IST" name="tearDown" finished-at="2025-08-19T19:35:19 IST" duration-ms="1237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ab.form.tests.FormPageTest -->
+    </test> <!-- FireFoxTest -->
+  </suite> <!-- CrossBrowserSuite -->
+</testng-results>

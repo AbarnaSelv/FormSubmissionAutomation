@@ -1,0 +1,15 @@
+<suite name="CrossBrowserSuite" verbose="1" parallel="tests">
+    <test name="ChromeTest" >
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.ab.form.tests.FormPageTest"/>
+        </classes>
+    </test>
+
+    <test name="FireFoxTest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.ab.form.tests.FormPageTest"/>
+        </classes>
+    </test>
+</suite>
