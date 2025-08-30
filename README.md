@@ -28,7 +28,6 @@ The framework is lightweight, modular, and designed for **scalability**, ensurin
 ## 🌟 Key Features
 ✔ **Page Object Model (POM)** – Improves code reusability and readability  
 ✔ **Cross Browser Testing** – Supports running tests on **Chrome and Firefox**  
-✔ **Parallel Testing** – Faster execution using TestNG’s parallel execution capabilities  
 ✔ **Scalable Design** – Easy to extend with more test cases and utilities  
 ✔ **Maven Integration** – Simplifies dependency management and build lifecycle  
 
@@ -37,7 +36,6 @@ The framework is lightweight, modular, and designed for **scalability**, ensurin
 ## ⚡ How It Works
 - Test cases are written in **TestNG** and linked with **Page Objects**  
 - Cross-browser execution is controlled via **parameters in `testng.xml`**  
-- Parallel test execution ensures **reduced execution time**  
 - Modular structure allows **clean separation of test logic and UI locators**  
 
 ---
@@ -50,5 +48,32 @@ The framework is lightweight, modular, and designed for **scalability**, ensurin
 ---
 
 ## ✅ Summary
-This framework provides a **solid foundation for Selenium automation** with support for **POM, cross-browser testing, and parallel execution**.  
+This framework provides a **solid foundation for Selenium automation** with support for **POM, and cross-browser testing**.  
 It is designed for **scalability, maintainability, and professional use in real-world automation projects**.
+
+---
+
+## 🎥 Demo Video  
+▶️ [Click here to watch the execution video](https://drive.google.com/file/d/1gK4JxAqTca5vPzf1ngIgHqOFdBZgHTGr/view?usp=sharing)  
+
+---
+
+## 📸 Screenshots  
+Execution screenshots are included inside the repository under the `Project_Demo/` folder.  
+
+---
+
+## How to Run
+
+### 1. Using TestNG Suite (IDE)
+- Right-click on `testng.xml` in your IDE
+- Select **Run As → TestNG Suite**
+
+### 2. Using Maven
+```bash
+git clone https://github.com/AbarnaSelv/SeleniumLoginAutomation.git
+cd SeleniumLoginAutomation
+mvn clean install
+mvn test
+
+
