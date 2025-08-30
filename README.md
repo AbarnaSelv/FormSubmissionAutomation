@@ -25,6 +25,8 @@ The framework is lightweight, modular, and designed for **scalability**, ensurin
 
 - testng.xml → TestNG suite configuration file for running tests, supports parallel execution and cross-browser testing
 
+---
+
 ## 🌟 Key Features
 ✔ **Page Object Model (POM)** – Improves code reusability and readability  
 ✔ **Cross Browser Testing** – Supports running tests on **Chrome and Firefox**  
