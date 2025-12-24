@@ -79,8 +79,8 @@ It is structured to meet **professional automation standards** and can be easily
 
 ## Execution Video
 
-[Execution video of the test run is available here:] 
-(https://drive.google.com/file/d/1gK4JxAqTca5vPzf1ngIgHqOFdBZgHTGr/view?usp=sharing)
+Execution video of the test run is available here:
+[[Click here to watch the execution video]](https://drive.google.com/file/d/1gK4JxAqTca5vPzf1ngIgHqOFdBZgHTGr/view?usp=sharing)
 
 ---
 
