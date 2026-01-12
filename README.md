@@ -43,7 +43,7 @@ The framework follows clean design principles to ensure better **readability**, 
   Improves code reusability, readability, and maintenance.
 
 - **Cross Browser Testing**  
-  Supports execution on **Chrome** and **Firefox** using TestNG parameters.
+  Supports execution on **Chrome** and **Firefox** using testng.xml
 
 - **Scalable Design**  
   Easy to extend by adding more test cases, pages, and utilities.
@@ -57,7 +57,6 @@ The framework follows clean design principles to ensure better **readability**, 
 
 - Test cases are written using **TestNG**.
 - UI interactions are handled through **Page Object classes**.
-- Cross-browser execution is controlled using **parameters in `testng.xml`**.
 - Test logic and UI locators are kept separate for clean and maintainable code.
 
 ---
