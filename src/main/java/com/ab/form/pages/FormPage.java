@@ -1,4 +1,4 @@
-package com.ab.form.pages;
+	package com.ab.form.pages;
 
 import java.nio.channels.SelectableChannel;
 
@@ -63,8 +63,8 @@ public class FormPage {
 	private WebElement submittedText;
 	
 	public void enterCredentials(String textInput, String pass, String text) {
-		TextInput.sendKeys(textInput);
-		TextInput.sendKeys(Keys.TAB);
+		TextInput.sendKeys(textInput, Keys.TAB);
+		//TextInput.sendKeys(Keys.TAB);
 		
 		Password.sendKeys(pass);
 		Password.sendKeys(Keys.TAB);
@@ -93,6 +93,13 @@ public class FormPage {
 	
 	public void uploadFile(String filepath) {
 		FileInput.sendKeys(filepath);
+		
+		
+		// here how come sendkeys works without any typo option - <input type="file"> - This input field secretly accepts text. 
+		// so, Internally Selenium injects: C:\Users\Abarna\Downloads\resume.pdf - into file input field.
+
+
+
         if(radioBox.isDisplayed() && radioBox.isEnabled()) {
             radioBox.click();
         }
@@ -100,7 +107,9 @@ public class FormPage {
 	}
 	
 	public void pickColor(String hexColor) {
-		colorPicker.click();
+		colorPicker.click(); // browser internally has: 
+		//<input type="color"> and sets value="#ff0000"
+
 	    colorPicker.sendKeys(hexColor);   
 	}
 	

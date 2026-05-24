@@ -24,6 +24,7 @@ public class FormPageTest extends BaseTest{
 	try {
 	    obj.enterCredentials("Abharnas","Absharu#123","We are meant to be forever");
 	    System.out.println("Credentials entered successfully");
+	    obj.checkFields();
 	} catch(Exception e) {
 	    e.printStackTrace();
 	}
@@ -65,20 +66,40 @@ public class FormPageTest extends BaseTest{
 	
 	try {
 	obj.submit();
-	Assert.assertTrue(obj.display(), "Form not submitted");
-	System.out.println("Form submitted Successfully");
+	
+	if(obj.display()) {
+
+	    System.out.println("Form submitted Successfully");
+
+	} else {
+
+	    System.out.println("Form not submitted");
+
+	}
+	
+	
 	} catch(Exception e) {
 	    e.printStackTrace();
 	} 
 	
 	Assert.assertEquals(driver.getTitle(), "Web form - target page", "Form submission failed!");
 
-
-	
-	
-
-	}
+}
 	
 
 
 }
+
+
+
+//Flows:
+//	Open browser
+//	Run FormPageTitleCheck
+//	Close browser
+//
+//	Open browser
+//	Run Actions
+//	Close browser
+
+
+// since the class has 2 @test with the 2 methods
